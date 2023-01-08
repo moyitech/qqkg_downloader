@@ -19,4 +19,5 @@ def get_url(song_url):
 
 
 if __name__ == '__main__':
-    pass
+    song_url = input("请输入歌曲链接>>")
+    print('解析结果：', get_url(song_url))
